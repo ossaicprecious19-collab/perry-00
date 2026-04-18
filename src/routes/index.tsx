@@ -53,7 +53,7 @@ function Home() {
               className="inline-flex items-center gap-2 glass rounded-full px-3 py-1.5 text-[11px] tracking-[0.18em] uppercase text-muted-foreground"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-              Available for select projects · 2025
+              Available for projects
             </motion.span>
 
             <h1 className="mt-6 font-display font-semibold tracking-[-0.04em] leading-[0.92] text-[clamp(3rem,9vw,7.5rem)]">
