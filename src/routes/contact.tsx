@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
       { property: "og:title", content: "Contact Ossai Precious" },
       {
         property: "og:description",
-        content: "Tell me about the project — I respond within 48 hours.",
+        content: "Tell me about the project — I respond within 24 hours.",
       },
     ],
   }),
@@ -47,14 +47,14 @@ function Contact() {
             </h1>
             <p className="mt-6 text-muted-foreground leading-relaxed max-w-md">
               Tell me about the project — what you're building, who it's for, and where you'd like
-              it to go. I respond within 48 hours.
+              it to go. I respond within 24 hours.
             </p>
 
             <dl className="mt-10 space-y-5">
               {[
-                { k: "Email", v: "hello@ossaiprecious.design" },
-                { k: "Based in", v: "Lagos · working worldwide" },
-                { k: "Response time", v: "Within 48 hours, weekdays" },
+                { k: "Email", v: "ossaicprecious18@gmail.com" },
+                { k: "Based in", v: "Nigeria · working worldwide" },
+                { k: "Response time", v: "Within 24 hours, weekdays" },
               ].map((row) => (
                 <div key={row.k}>
                   <dt className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground">
@@ -85,7 +85,7 @@ function Contact() {
                 </div>
                 <h2 className="font-display text-2xl tracking-tight">Message received.</h2>
                 <p className="mt-2 text-muted-foreground max-w-sm mx-auto">
-                  Thanks for reaching out — I'll be in touch within 48 hours.
+                  Thanks for reaching out — I'll be in touch within 24 hours.
                 </p>
               </div>
             ) : (
